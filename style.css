@@ -1,3 +1,79 @@
+.world-clock-box{
+    position: absolute;
+    top: 55%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold;
+    font-family: Arial, sans-serif; 
+    padding: 10px 20px;
+    border: 2px solid blue;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    height: 600px;
+}
 h1{
-    color: rebeccapurple;
+    margin-bottom: 100px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+.ixesha{
+    margin-bottom: 100px;
+    margin-left: 60px;
+    font-size: 40px;
+  
+}
+
+.clock-system{
+    font-size: 20px;
+}
+.country{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.date{
+    margin-bottom: 130px;
+    font-size: 13px;
+    margin-left: 110px;
+    font-weight: normal;
+   
+}
+.plus-sign{
+    margin-bottom: 30px;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+.role{
+    color: red;
+    margin-left: 15px;
+}
+@media(max-width: 576px){
+    .world-clock-box{
+        width: 310px;
+        height: 500px;
+    }
+    h1{
+        font-size: 35px;
+        margin-bottom: 90px;
+    }
+    .ixesha{
+        margin-left: 60px;
+        margin-bottom: 70px;
+        font-size: 30px
+    }
+    .clock-system{
+        font-size: 15px;
+    }
+    .country{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .date{
+        margin-bottom: 90px;
+        margin-left: 85px;
+    }
+    .plus-sign{
+        margin-left: 50%;
+    }
 }
