@@ -52,6 +52,7 @@ h1{
     .world-clock-box{
         width: 310px;
         height: 500px;
+        margin-top: -20px;
     }
     h1{
         font-size: 35px;
