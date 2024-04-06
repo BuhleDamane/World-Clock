@@ -20,7 +20,7 @@ h1{
     font-size: 45px;
 }
 .ixesha{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-left: 60px;
     font-size: 40px;
   
@@ -34,16 +34,19 @@ h1{
     margin-left: 30px;
 }
 .date{
-    margin-bottom: 130px;
+    margin-bottom: 70px;
     font-size: 13px;
     margin-left: 110px;
     font-weight: normal;
    
 }
 .plus-sign{
-    margin-bottom: 30px;
-    margin-left: 47%;
-    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    font-size: 60px;
+    font-weight: 400;
+    color: blue;
 }
 .role{
     color: brown;
@@ -72,10 +75,12 @@ h1{
         margin-left: 15px;
     }
     .date{
-        margin-bottom: 90px;
+        margin-bottom: 70px;
         margin-left: 85px;
     }
     .plus-sign{
-        margin-left: 50%;
+        margin-left: 47%;
+        margin-bottom: 5px;
+        font-size: 50px;
     }
 }
