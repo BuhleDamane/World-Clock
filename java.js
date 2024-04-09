@@ -1,27 +1,11 @@
-let now = new Date();
-let ixesha = document.querySelector(".ixesha");
+let worldClockBox1 = document.querySelector(".worldClockBox1");
+let worldClockBox2 = document.querySelector(".worldClockBox2");
+let worldClockBox3 = document.querySelector(".worldClockBox3");
+let wrapper = document.querySelector(".wrapper")
 
-let date = now.getDate();
-
-
-let year = now.getFullYear();
-
-let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-let day = days[now.getDay()];
-
-let months = ["January", "February", "March", "April", "May", "June", "July" , "August", "September", "October", "November", "December"]
-let month = months[now.getMonth()];
-
-let hour = now.getHours();
-let minutes = now.getMinutes();
-let seconds = now.getSeconds();
-
-if (seconds < 10) {
-    seconds = `0${seconds}`;
-  }
-
-
-
-ixesha.innerHTML = `${hour}:${minutes}:${seconds}`
-let ngubani = document.querySelector(".ngubani")
-ngubani.innerHTML = `${date} ${day} ${month}`
+worldClockBox1.addEventListener('click', () =>{
+  wrapper.classList.toggle('activ')
+});
+worldClockBox2.addEventListener("click", button);
+worldClockBox3.addEventListener("click", button);
+wrapper.addEventListener("click", button);
