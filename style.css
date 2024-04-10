@@ -33,10 +33,9 @@ body{
     height: 570px;
     margin-top: -30px;
     background-color: black;
-    transition: 1s ease-in-out;
 }
 .wrapper.active .worldClockBox1{
-    transform: translateY(-450px);
+
 }
 h1{
     margin-bottom: 98px;

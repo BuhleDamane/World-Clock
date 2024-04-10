@@ -1,11 +1,9 @@
-let worldClockBox1 = document.querySelector(".worldClockBox1");
-let worldClockBox2 = document.querySelector(".worldClockBox2");
-let worldClockBox3 = document.querySelector(".worldClockBox3");
-let wrapper = document.querySelector(".wrapper")
+let home = document.querySelector(".home")
+let alarm = document.querySelector(".alarm")
+let stopwatch = document.querySelector(".stopwatch")
+let timer = document.querySelector(".timer")
+let worldClockBox = document.querySelector('.worldClockBox');
 
-worldClockBox1.addEventListener('click', () =>{
-  wrapper.classList.toggle('activ')
+home.addEventListener("click", () =>{
+worldClockBox.classList.toggle("acive");
 });
-worldClockBox2.addEventListener("click", button);
-worldClockBox3.addEventListener("click", button);
-wrapper.addEventListener("click", button);
